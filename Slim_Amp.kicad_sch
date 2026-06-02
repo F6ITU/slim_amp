@@ -4053,6 +4053,16 @@
 		)
 		(uuid "e632e92f-97d6-428a-8ec3-0f25fedb11fc")
 	)
+	(text "Jumper J5 si ddp trop faible"
+		(exclude_from_sim no)
+		(at 151.13 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fc9afe54-e611-47d8-bbd3-c0a37b122516")
+	)
 	(junction
 		(at 97.79 161.29)
 		(diameter 0)
@@ -4573,6 +4583,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 124.46) (xy 165.1 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71de4792-4fd4-4cdf-a579-967b332403fc")
+	)
+	(wire
+		(pts
 			(xy 63.5 100.33) (xy 63.5 101.6)
 		)
 		(stroke
@@ -4843,6 +4863,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 124.46) (xy 147.32 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a70b34c7-2ea8-4af8-87af-0453dff6eb6d")
+	)
+	(wire
+		(pts
 			(xy 137.16 99.06) (xy 137.16 100.33)
 		)
 		(stroke
@@ -4983,6 +5013,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 124.46) (xy 165.1 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb9026af-d625-46f5-8cc1-36edd0cc83ff")
+	)
+	(wire
+		(pts
 			(xy 83.82 171.45) (xy 97.79 171.45)
 		)
 		(stroke
@@ -5000,6 +5040,16 @@
 			(type default)
 		)
 		(uuid "cd80de35-a72b-4e3d-b9a2-04e646f75b00")
+	)
+	(wire
+		(pts
+			(xy 153.67 124.46) (xy 147.32 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4355c3f-b2df-4af2-9711-b4e7413b11a3")
 	)
 	(wire
 		(pts
@@ -11615,6 +11665,88 @@
 			(project "Slim_Amp"
 				(path "/d2275eef-6863-4ebf-a9db-b7ee43970cb8"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 153.67 119.38 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed292228-f544-48c6-b12d-bce9bb581b55")
+		(property "Reference" "J5"
+			(at 152.4 118.7449 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "jumper"
+			(at 152.4 121.2849 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+			(at 153.67 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 153.67 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7f163fa-b8cb-4e29-b83f-20bc5955f3f8")
+		)
+		(pin "2"
+			(uuid "4eca6bc7-f83c-4bd0-948f-4ed1e527e425")
+		)
+		(instances
+			(project "Slim_Amp"
+				(path "/d2275eef-6863-4ebf-a9db-b7ee43970cb8"
+					(reference "J5")
 					(unit 1)
 				)
 			)

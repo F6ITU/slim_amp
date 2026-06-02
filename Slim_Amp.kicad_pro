@@ -197,6 +197,7 @@
         0.0,
         0.4,
         0.45,
+        0.8,
         1.2,
         1.8,
         2.0,
@@ -652,7 +653,7 @@
         "uuid": "d2275eef-6863-4ebf-a9db-b7ee43970cb8"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J5",
     "variants": []
   },
   "sheets": [
