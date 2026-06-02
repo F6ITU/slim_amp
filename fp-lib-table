@@ -1,0 +1,9 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "RF_FET") (type "KiCad") (uri "C:/Users/marco/Documents/KiCad/Projets/Slim_Amp/Libs/RF_FET.pretty") (options "") (descr ""))
+	(lib (name "Amidon_Binocular") (type "KiCad") (uri "C:/Users/marco/Documents/KiCad/Projets/Slim_Amp/Libs/Amidon_Binocular.pretty") (options "") (descr ""))
+	(lib (name "Ferrite_LC_NFM41P") (type "KiCad") (uri "C:/Users/marco/Documents/KiCad/Projets/Slim_Amp/Libs/Ferrite_LC_NFM41P.pretty") (options "") (descr ""))
+	(lib (name "SMA_PINS") (type "KiCad") (uri "C:/Users/marco/Documents/KiCad/Projets/Slim_Amp/Libs/SMA_PINS.pretty") (options "") (descr ""))
+	(lib (name "Bourns") (type "KiCad") (uri "${KIPRJMOD}/Bourns.pretty") (options "") (descr ""))
+	(lib (name "Athena") (type "KiCad") (uri "${KIPRJMOD}/Libs/Athena.pretty") (options "") (descr ""))
+)
